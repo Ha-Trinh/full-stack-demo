@@ -1,0 +1,36 @@
+.Country-list {
+  width: 80%;
+  margin: auto;
+}
+ul {
+  list-style-type: none;
+}
+.country-item {
+  padding: 5px;
+}
+.btn-show-details {
+  height: 40px;
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+.btn-show-details:hover {
+  background-color: white;
+  border: 1px  solid #008CBA;
+  color:  #008CBA;
+}
+.country-item-content {
+  display: flex;
+  justify-content: flex-start;
+}
+.country-flag-content {
+  width: 5%;
+  margin-right: 5px;
+}

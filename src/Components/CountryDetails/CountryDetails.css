@@ -1,0 +1,10 @@
+.Country-details {
+  text-align: left;
+}
+.Country-flag {
+  display: flex;
+  justify-content: flex-start;
+}
+.Country-flag-content {
+  width: 25%;
+}
