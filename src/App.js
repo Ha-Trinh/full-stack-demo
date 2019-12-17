@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     Service.getAllDataCountries()
       .then(response => {
-        setContriesArray(response.data)
+        setContriesArray(response)
       })
   }, [])
   const handleFilterCountry = (name) => {
@@ -28,7 +28,7 @@ function App() {
     } else {
       Service.getAllDataCountries()
         .then(response => {
-          setContriesArray(response.data)
+          setContriesArray(response)
         })
     }
   }
